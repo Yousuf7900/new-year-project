@@ -77,10 +77,14 @@ footer {
   font-size: 25px;
   font-weight: 600;
   padding-right: 250px;
+  padding-bottom: 30px;
 }
 .email-sub {
-  border: 0;
-}
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  /* width: 325px; */
+  height: 64px;}
 
 .info-email {
   padding-top: 25px;
@@ -99,4 +103,15 @@ footer {
   font-weight: 600;
   text-align: left;
   padding: 20px 36px;
+  margin-top: 15px;
+}
+::placeholder {
+  background-color: #151414;
+  width: 146px;
+  height: 21px;
+}
+.input-item input[type="email"] {
+  background-color: #151414;
+  font-size: 18px;
+  padding: 21px 158px 21px 21px;
 }
