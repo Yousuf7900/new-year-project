@@ -78,6 +78,7 @@ footer {
   font-weight: 600;
   padding-right: 250px;
   padding-bottom: 30px;
+  padding-left: 3px;
 }
 .email-sub {
   box-sizing: border-box;
