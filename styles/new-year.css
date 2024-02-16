@@ -1,4 +1,50 @@
 /* Default font-family for all */
-body{
+*{
+    margin: 0px;
+}
+body {
   font-family: "Work Sans", sans-serif;
+}
+
+/* Header section styles */
+
+.header-section{
+    height: 808px;
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.first-section {
+  text-align: right;
+  padding-right: 230px;
+}
+.header-title {
+  font-size: 65px;
+  font-weight: 700;
+  color: #151414;
+  height: 228px;
+  /* width: 525px; */
+  padding-left: 1000px;
+  padding-top: 215px;
+  margin: 0;
+  
+}
+.header-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #444343;
+  height: 78px;
+  padding-left: 1200px;
+}
+.first-button {
+  border-radius: 5px;
+  border: 0;
+  background: rgb(241, 91, 34);
+  width: 160px;
+  height: 64px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 25px;
 }
